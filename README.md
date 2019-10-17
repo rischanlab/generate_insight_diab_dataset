@@ -15,6 +15,8 @@ Top-10 insights as shown in Figure below
 
 Example plot target and reference views from top-k 
 
+num_emergency means emergency visits in the year before the hospitalization
+
 ## Target view I
 
 ![Image of Target view](https://raw.githubusercontent.com/rischanlab/generate_insight_diab_dataset/master/results_screenshoot/target1.JPG)
