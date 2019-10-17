@@ -6,8 +6,8 @@ This result using diabetes clean version dataset: see https://github.com/rischan
 
 Example target and reference query that we used, 4 aggregate functions are used (avg, max, sum, count): 
 
-### Target query: `select gender, max(number_emergency) from diabetes where readmitted = 'NO' group by gender` (subset readmitted = NO)
-### Reference query: `select gender, max(number_emergency) from diabetes group by gender` (whole dataset)
+### Target query: `select A, M(F) from diabetes where readmitted = 'NO' group by A` (subset readmitted = NO)
+### Reference query: `select A, M(F) from diabetes group by A` (whole dataset)
 
 Top-10 insights as shown in Figure below
 
