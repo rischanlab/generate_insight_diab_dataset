@@ -4,7 +4,7 @@ Dataset:  https://archive.ics.uci.edu/ml/datasets/Diabetes+130-US+hospitals+for+
 
 This result using diabetes clean version dataset: see https://github.com/rischanlab/Cleaning_diabetes_130_US_hospital_dataset
 
-Example target and reference query that we used: 
+Example target and reference query that we used, 4 aggregate functions are used (avg, max, sum, count): 
 
 ### Target query: `select gender, max(number_emergency) from diabetes where readmitted = 'NO' group by gender` (subset readmitted = NO)
 ### Reference query: `select gender, max(number_emergency) from diabetes group by gender` (whole dataset)
